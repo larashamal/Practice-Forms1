@@ -12,10 +12,12 @@
     />
     <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body>
-    <h1>Login/Registration</h1>
+  <body class="flex flex-col items-center">
+    <h1 class="my-4 text-3xl font-semibold text-purple-400">
+      Login/Registration
+    </h1>
 
-    <form>
+    <form class="flex w-80 flex-col items-center gap-4 rounded border p-4">
       <div>
         <label for="username">Username:</label>
         <input type="text" name="" id="username" placeholder="Username" />
@@ -25,7 +27,12 @@
         <input type="password" name="" id="password" placeholder="Password" />
       </div>
 
-      <button type="submit">Submit</button>
+      <button
+        type="submit"
+        class="cursor-pointer rounded bg-purple-500 px-4 py-2 text-white transition hover:scale-105 hover:bg-purple-300"
+      >
+        Submit
+      </button>
     </form>
   </body>
 </html>
