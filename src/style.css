@@ -27,3 +27,19 @@ form {
   padding: 16px;
   width: 320px;
 }
+
+button {
+  background-color: plum;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 16px;
+  transition: 0.2s;
+}
+
+button:focus,
+button:hover {
+  background-color: rgb(173, 115, 228);
+  cursor: pointer;
+  transform: scalex(1.05) translateY(-2px);
+}
