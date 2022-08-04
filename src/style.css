@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-label {
+label:not(.visible) {
   @apply sr-only;
 }
 
