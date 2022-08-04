@@ -18,13 +18,21 @@
     </h1>
 
     <form class="flex w-80 flex-col items-center gap-4 rounded border p-4">
-      <div>
+      <div class="">
         <label for="username">Username:</label>
-        <input type="text" name="" id="username" placeholder="Username" />
+        <input type="text" id="username" placeholder="Username" autofocus />
       </div>
+
       <div>
-        <label for="password">Password: </label>
-        <input type="password" name="" id="password" placeholder="Password" />
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Password" />
+      </div>
+
+      <div>
+        <input type="checkbox" id="save-username" />
+        <label for="save-username" class="visible ml-2"
+          >Remember username</label
+        >
       </div>
 
       <button
